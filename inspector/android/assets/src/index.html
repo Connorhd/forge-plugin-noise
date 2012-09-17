@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<script src="../forge/all.js"></script>
+		<script src="js/jquery-1.7.2.min.js"></script>
+		<script>
+			$(document).bind('touchstart', function () {
+				forge.internal.call('noise.start', {});
+			})
+			$(document).bind('touchmove', function (e) {
+				e.preventDefault();
+				var event = window.event;
+				forge.internal.call('noise.setNoise', {x: event.touches[0].pageX/$(document).width(), y: event.touches[0].pageY/$(document).height()});
+				$('body').css('background-color', 'hsl('+event.touches[0].pageX/$(document).width()*360+', '+event.touches[0].pageY/$(document).height()*100+'%, 50%)');
+			});
+			
+			$(document).bind('touchend', function () {
+				forge.internal.call('noise.stop', {});
+			})
+		</script>
+		<style>
+			* { height: 100%; width: 100%; padding: 0; margin: 0 }
+		</style>
+	</head>
+	<body>
+	</body>
+</html>
