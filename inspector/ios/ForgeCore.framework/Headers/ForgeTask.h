@@ -1,6 +1,6 @@
 //
 //  ForgeTask.h
-//  templateapp
+//  Forge
 //
 //  Created by Connor Dunn on 01/11/2011.
 //  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
@@ -25,7 +25,7 @@
 - (void) errorThrown:(NSException*)e;
 - (void) runInBackground;
 - (BOOL) internetReachable;
-- (UIViewController*) context;
+- (UIViewController*) viewController;
 - (UIWebView*) webView;
 + (void)event:(NSString*)name withParam:(id)params;
 

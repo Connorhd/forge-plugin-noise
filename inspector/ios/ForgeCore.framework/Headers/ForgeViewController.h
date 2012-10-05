@@ -1,6 +1,6 @@
 //
-//  templateappViewController.h
-//  templateapp
+//  ForgeViewController.h
+//  Forge
 //
 //  Created by Connor Dunn on 26/01/2012.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface templateappViewController : UIViewController {
+@interface ForgeViewController : UIViewController {
 	IBOutlet UIWebView *webView;
 	IBOutlet UIImageView *imageView;
 	IBOutlet UIView *containingView;

@@ -7,15 +7,21 @@
 //
 
 #import <Foundation/Foundation.h>
+
+// Forge classes
 #import "ForgeTask.h"
-#import "BorderControl.h"
 #import "ForgeLog.h"
+#import "ForgeAppDelegate.h"
+#import "ForgeApp.h"
+#import "ForgeViewController.h"
+#import "ForgeAppDelegate.h"
+#import "ForgeEventListener.h"
+
+// Utilities
 #import "ALAsset+Data.h"
 #import "UIImage+ResizeImage.h"
 #import "NSData+Base64.h"
 #import "NSFileManager+DirectoryLocations.h"
-#import "ForgeActivityDecorator.h"
-#import "templateappAppDelegate.h"
 #import "JSONKit.h"
 #import "NSURL+QueryString.h"
 #import "Reachability.h"

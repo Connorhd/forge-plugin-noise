@@ -1,6 +1,6 @@
 //
 //  ForgeLog.h
-//  templateapp
+//  Forge
 //
 //  Created by Connor Dunn on 25/01/2012.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
@@ -17,7 +17,5 @@
 + (void) w:(id)msg;
 + (void) e:(id)msg;
 + (void) c:(id)msg;
-
-extern NSString* const kForgeLogLevel;
 
 @end

@@ -113,13 +113,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B307827315C2A645006798D7 /* alert */ = {
+		B307827315C2A645006798D7 /* noise */ = {
 			isa = PBXGroup;
 			children = (
 				B307827415C2A659006798D7 /* noise_API.h */,
 				B307827515C2A659006798D7 /* noise_API.mm */,
 			);
-			name = alert;
+			name = noise;
 			sourceTree = "<group>";
 		};
 		B3FC516C15C14B2A003574D9 = {
@@ -162,7 +162,7 @@
 			children = (
 				B353C5D215FE1621007743F1 /* BleepMachine.h */,
 				B353C5D315FE1621007743F1 /* BleepMachine.mm */,
-				B307827315C2A645006798D7 /* alert */,
+				B307827315C2A645006798D7 /* noise */,
 				B307827115C2A634006798D7 /* app_config.json */,
 				B307826D15C2A47B006798D7 /* assets */,
 				B3FC518215C14B2A003574D9 /* Supporting Files */,
